@@ -98,8 +98,8 @@ function vegas(func,
     nevals = 0
     Itot = 0.
     sd = 0.
-    integrals = Float64[]
-    sigma_squares = Float64[]
+    integrals = []
+    sigma_squares = []
     iter = 1
 
     while iter <= maxiter
